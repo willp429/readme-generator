@@ -1,9 +1,9 @@
 // function to generate markdown for README
 const generateMarkdown = data => {
-	return `# ${data.title}
+  return `# ${ data.title }
   
   ## Description
-  ${data.description}
+  ${ data.description }
 
   The above should include 
 
@@ -26,7 +26,7 @@ const generateMarkdown = data => {
   NOTE: I have no idea what goes here yet...
 
   ## License
-  ${data.licenses}
+  ${ data.licenses }
 
   NOTE: The licenses for the application need to be selected from a list of options with a badge that is added near the top of the README. In addition, there needs to be a notice added to this section of the README that explains which license the application is covered under.
 
@@ -37,7 +37,7 @@ const generateMarkdown = data => {
   ## Tests
 
   ## Questions
-  ${data.name}
+  ${ data.name }
 
   NOTE: This section should contain your GitHub username with a link to your GitHub profile. In addition, this section of the README should include the entered email with instructions on how to reach out.
 
